@@ -1,6 +1,6 @@
 class Game
   attr_accessor :board, :player_1, :player_2
-  
+
   WIN_COMBINATIONS = [
     [0,1,2], # Top row
     [3,4,5], # Mid row
@@ -93,5 +93,6 @@ class Game
       turn
     end
   end
+  
   
 end
